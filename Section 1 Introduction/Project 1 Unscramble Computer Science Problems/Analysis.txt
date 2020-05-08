@@ -1,0 +1,30 @@
+Task0.py
+
+- Retrieval of first record of texts and last record of calls takes constant time i.e. O(1) as we are accessing python array
+
+
+Task1.py
+
+- To count unique telephone numbers from records we have to go through each of them
+- lets says there are n records therefore time complexity is O(n)
+
+
+Task2.py
+
+- We first go through each record that has time complexity is O(n)
+- Then we find key with max value that again has time complexity is O(n)
+- So in total its is O(n) + O(n) that simplifies to O(n)
+
+
+Task3.py
+
+- For part A, since we had to go thorugh every record one by one time complexity is O(n) 
+- and the sorting using .sort method has time complexity O(n logn)
+- So we end up simplifying them into O(n log n).
+- For part B, since we had to go thorugh every record one by one time complexity is O(n).
+- For whole .py file i.e. Part A and B combined time complexity isO(n) 
+
+
+Task4.py
+
+- since we had to go through every record one by one and then use sort method in python so simplified time complexity is O(n logn).
